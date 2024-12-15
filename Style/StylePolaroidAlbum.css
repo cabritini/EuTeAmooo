@@ -118,28 +118,3 @@
   left: 10rem;
   font-size: 1.5rem;
 }
-
-/*------------ Botão -------------------- */
-
-.back-to-index {
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-  position: fixed; /* Fixa o botão no topo da tela */
-  top: 20px; /* Define a distância do topo */
-  left: 50%; /* Centraliza o botão horizontalmente */
-  transform: translateX(-50%); /* Ajusta para o centro exato */
-  padding: 10px 20px; /* Define o tamanho do botão */
-  font-size: 16px; /* Tamanho da fonte */
-  background-color: white; /* Cor de fundo */
-  color: #1d1d1f; /* Cor da fonte */
-  border: none; /* Remove borda */
-  border-radius: 10px; /* Bordas arredondadas */
-  cursor: pointer; /* Altera o cursor para indicar um link */
-  z-index: 1000; /* Garante que o botão fique acima de outros elementos */
-  transition: all 0.3s ease-in-out 0.1s;
-}
-
-.back-to-index:hover {
-  background-color: #ff0239; /* Cor de fundo ao passar o mouse */
-  transition: all 0.3s ease-in-out 0.1s;
-  color: #f5f5f7;
-}
