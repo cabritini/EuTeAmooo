@@ -132,7 +132,7 @@
   background-color: white; /* Cor de fundo */
   color: #1d1d1f; /* Cor da fonte */
   border: none; /* Remove borda */
-  border-radius: 5px; /* Bordas arredondadas */
+  border-radius: 10px; /* Bordas arredondadas */
   cursor: pointer; /* Altera o cursor para indicar um link */
   z-index: 1000; /* Garante que o botão fique acima de outros elementos */
   transition: all 0.3s ease-in-out 0.1s;

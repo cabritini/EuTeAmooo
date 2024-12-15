@@ -1,0 +1,85 @@
+/* Estilo básico para um envelope branco */
+.simple-envelope {
+    position: relative;
+    margin: 0 auto;
+    width: 250px;
+    height: 125px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transition: all 0.2s ease-in-out 0.1s;
+  }
+  .simple-envelope .body,
+  .simple-envelope .top-fold,
+  .simple-envelope .back-fold,
+  .simple-envelope .left-fold {
+      transition: all 0.2s ease-in-out 0.1s;
+    }
+  
+  .simple-envelope .body {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 125px 250px;
+    border-color: transparent transparent #ffffff transparent;
+    z-index: 2;
+  }
+  
+  .simple-envelope .top-fold {
+    position: absolute;
+    top: 62.5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 62.5px 125px 0 125px;
+    border-color: #ffffff transparent transparent transparent;
+    z-index: 2;
+  }
+  
+  .simple-envelope .back-fold {
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    height: 125px;
+    background: #ECECEC;
+    z-index: 0;
+  }
+  
+  .simple-envelope .left-fold {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 62.5px 0 62.5px 125px;
+    border-color: transparent transparent transparent #F6F6F6;
+    z-index: 2;
+  }
+
+  .envelope-text {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Sf-Pro-Display";
+    color: #1f1f1f;
+    font-size: 2rem;
+  }
+
+  .simple-envelope:hover {
+    transform: translateY(-7px) scale(1.05);
+  }
+
+  .simple-envelope:hover .body {
+    border-color: transparent transparent #FF2644 transparent;
+  }
+
+  .simple-envelope:hover .top-fold {
+    border-color: #FF2644 transparent transparent transparent;
+  }
+
+  .simple-envelope:hover .back-fold {
+    background: #D42038;
+  }
+
+  .simple-envelope:hover .left-fold {
+    border-color: transparent transparent transparent #F62541;
+  }
