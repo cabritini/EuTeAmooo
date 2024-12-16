@@ -35,6 +35,9 @@
 }
 .handwrite {
     font-family: "Allura";
+    white-space: normal; /* Permite quebra de linha normal */
+    overflow: hidden;    /* Esconde o texto extra */
+    font-size: 30px;
 }
 p {
     text-indent: 40px !important;
