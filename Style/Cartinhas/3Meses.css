@@ -1,4 +1,3 @@
-/* Wrapper para centralizar o papel */
 #wrapper {
     width: 100%;
     display: flex;
@@ -39,6 +38,12 @@
     overflow: hidden;    /* Esconde o texto extra */
     font-size: 30px;
 }
+.escrita {
+    font-family: "Sf-Pro-Display";
+    white-space: normal; /* Permite quebra de linha normal */
+    overflow: hidden;    /* Esconde o texto extra */
+    font-size: 30px;
+}
 p {
     text-indent: 40px !important;
 }
@@ -52,22 +57,11 @@ p {
     animation: pulsar 0.8s ease-in-out infinite; /* Animação */
 }
 .sempre{
-    display: inline-block; /* Necessário para a animação funcionar */
-    font-weight: 600; /* Destacar o texto */
+    display: inline-block; /* Mantém o texto em linha, mas permite aplicar estilos ao contêiner */
+    font-weight: 600; /* Destaca o texto */
     color: #b40800; /* Cor do texto */
-    font-size: 1.8rem; /* Tamanho maior */
-    box-shadow: 0px 0px 51px 18px rgba(180,9,0,1);
-}
-
-/* Animação de pulsar */
-@keyframes pulsar {
-    0% {
-        transform: scale(1); /* Tamanho normal */
-    }
-    50% {
-        transform: scale(1.1); /* Um pouco maior */
-    }
-    100% {
-        transform: scale(1); /* Volta ao tamanho normal */
-    }
+    font-size: 2.5rem; /* Tamanho maior */
+    text-shadow: 0px 0px 10px rgb(224, 11, 0), 
+                 0px 0px 20px rgba(224, 11, 0),
+                 0px 0px 30px rgba(224, 11, 0);
 }

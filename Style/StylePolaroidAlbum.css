@@ -85,36 +85,52 @@
 /*----------- Polaroids -------------- */
 .ItemObj:nth-of-type(1) {
   transform: rotate(-10deg);
-  z-index: 4;
+  z-index: 98;
   width: 10rem;
-  top: 5rem; /* Define a posição vertical */
-  left: 10rem; /* Define a posição horizontal */
+  top: 8rem; /* Define a posição vertical */
+  left: 1.5rem; /* Define a posição horizontal */
   font-size: 1.5rem;
 }
 
 .ItemObj:nth-of-type(2) {
   transform: rotate(15deg);
-  z-index: 3;
+  z-index: 97;
   width: 10rem;
   top: 8rem; /* Ajusta a posição */
-  left: 3rem;
+  left: 16rem;
   font-size: 1.5rem;
 }
 
 .ItemObj:nth-of-type(3) {
-  transform: rotate(15deg);
-  z-index: 2;
+  transform: rotate(6deg);
+  z-index: 99;
   width: 10rem;
-  top: 17rem; /* Ajusta a posição */
-  left: 3rem;
+  top: 8rem; /* Ajusta a posição */
+  left: 8rem;
   font-size: 1rem;
 }
 
 .ItemObj:nth-of-type(4) {
   transform: rotate(-23deg);
-  z-index: 1;
+  z-index: 97;
   width: 10rem;
-  top: 15rem; /* Ajusta a posição */
+  top: 17rem; /* Ajusta a posição */
+  left: 3rem;
+  font-size: 1.5rem;
+}
+.ItemObj:nth-of-type(5) {
+  transform: rotate(13deg);
+  z-index: 96;
+  width: 10rem;
+  top: 19rem; /* Ajusta a posição */
   left: 10rem;
+  font-size: 1.5rem;
+}
+.ItemObj:nth-of-type(6) {
+  transform: rotate(-23deg);
+  z-index: 96;
+  width: 10rem;
+  top: 14rem; /* Ajusta a posição */
+  left: 15rem;
   font-size: 1.5rem;
 }

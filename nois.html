@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="Style/StylePolaroidAlbum.css">
     <link rel="stylesheet" href="Style/StyleMain.css">
     <link rel="stylesheet" href="Style/StyleBtnVoltar.css">
-    
 </head>
 <body>
-
     <button class="btnVoltar" onclick="window.location.href='index.html'">Voltar</button>
+
     <!-- Item 1 -->
     <div class="ItemObj" onclick="showCarousel('carousel1')">
         <div class="PolaroidObj">
@@ -20,7 +19,7 @@
             <div class="AlbumCaption">01/10/24</div>
         </div>
     </div>
-  
+
     <!-- Item 2 -->
     <div class="ItemObj" onclick="showCarousel('carousel2')">
         <div class="PolaroidObj">
@@ -29,6 +28,7 @@
         </div>
     </div>
 
+    <!-- Item 3 -->
     <div class="ItemObj" onclick="showCarousel('carousel3')">
         <div class="PolaroidObj">
             <img src="Imagens/NiverDoMarcao/MarcaoQuadrada.jpg" alt="Imagem 3">
@@ -36,6 +36,7 @@
         </div>
     </div>
 
+    <!-- Item 4 -->
     <div class="ItemObj" onclick="showCarousel('carousel4')">
         <div class="PolaroidObj">
             <img src="Imagens/23_10_24/23_10_24Quadrada.jpg" alt="Imagem 4">
@@ -43,6 +44,21 @@
         </div>
     </div>
 
+    <!-- Item 5 -->
+    <div class="ItemObj" onclick="showCarousel('carousel5')">
+        <div class="PolaroidObj">
+            <img src="Imagens/LegoGato/LegoGatoSquare.jpg" alt="Imagem 5">
+            <div class="AlbumCaption">13/12/24</div>
+        </div>
+    </div>
+
+    <!-- Item 6 -->
+    <div class="ItemObj" onclick="showCarousel('carousel6')">
+        <div class="PolaroidObj">
+            <img src="Imagens/EcoParque/EcoParqueQuadrado.jpg" alt="Imagem 6">
+            <div class="AlbumCaption">17/12/24</div>
+        </div>
+    </div>
 
     <!-- Carousel 1 -->
     <div class="carousel-overlay" id="carousel1" style="display: none;">
@@ -172,6 +188,141 @@
     </div>
 </div>
 
+    <!-- Carousel 5 -->
+<div class="carousel-overlay" id="carousel5" style="display: none;">
+    <button class="close-btn" onclick="hideCarousel('carousel5')">×</button>
+    <div class="carousel-container">
+        <div id="carousel5Controls" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagens/LegoGato/LegoGato1.jpg" class="w-100" alt="Slide 1 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/LegoGato/LegoGato2.jpg" class="w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/LegoGato/LegoGato3.jpg" class="w-100" alt="Slide 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/LegoGato/LegoGato4.jpg" class="w-100" alt="Slide 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/LegoGato/LegoGato5.jpg" class="w-100" alt="Slide 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/LegoGato/LegoGato6.jpg" class="w-100" alt="Slide 6">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/LegoGato/LegoGato7.jpg" class="w-100" alt="Slide 7">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/LegoGato/LegoGato8.jpg" class="w-100" alt="Slide 8">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/LegoGato/LegoGato9.jpg" class="w-100" alt="Slide 9">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/LegoGato/LegoGato10.jpg" class="w-100" alt="Slide 10">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel5Controls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel5Controls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+</div>
+
+    <!-- Carousel 6 -->
+<div class="carousel-overlay" id="carousel6" style="display: none;">
+    <button class="close-btn" onclick="hideCarousel('carousel6')">×</button>
+    <div class="carousel-container">
+        <div id="carousel6Controls" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagens/EcoParque/EcoParque1.jpg" class="w-100" alt="Slide 1 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque2.jpg" class="w-100" alt="Slide 2 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque3.jpg" class="w-100" alt="Slide 3 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque4.jpg" class="w-100" alt="Slide 4 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque5.jpg" class="w-100" alt="Slide 5 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque6.jpg" class="w-100" alt="Slide 6 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque7.jpg" class="w-100" alt="Slide 7 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque8.jpg" class="w-100" alt="Slide 8 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque9.jpg" class="w-100" alt="Slide 9 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque10.jpg" class="w-100" alt="Slide 10 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque11.jpg" class="w-100" alt="Slide 11 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque12.jpg" class="w-100" alt="Slide 12 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque13.jpg" class="w-100" alt="Slide 13 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque14.jpg" class="w-100" alt="Slide 14 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque15.jpg" class="w-100" alt="Slide 15 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque16.jpg" class="w-100" alt="Slide 16 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque17.jpg" class="w-100" alt="Slide 17 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque18.jpg" class="w-100" alt="Slide 18 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque19.jpg" class="w-100" alt="Slide 19 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque20.jpg" class="w-100" alt="Slide 20 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque21.jpg" class="w-100" alt="Slide 21 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque22.jpg" class="w-100" alt="Slide 22 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque23.jpg" class="w-100" alt="Slide 23 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/EcoParque/EcoParque24.jpg" class="w-100" alt="Slide 24 ">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel6Controls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel6Controls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="Script/scriptAlbum.js"></script>
 </body>
