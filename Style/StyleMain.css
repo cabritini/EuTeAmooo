@@ -31,3 +31,6 @@ a {
   -webkit-touch-callout: none; /* Desativa o menu de toque em alguns navegadores */
   user-select: none; /* Impede a seleção de texto */
 }
+html {
+    overflow-x: hidden;
+  }

@@ -88,3 +88,30 @@
   .envelopeContainer {
     margin-top: 10rem;
   }
+
+  /* Estilo para a cartinha escura */
+.dark-envelope .body {
+  border-color: transparent transparent #1F1F1F transparent;
+}
+
+.dark-envelope .top-fold {
+  border-color: #1F1F1F transparent transparent transparent;
+}
+
+.dark-envelope .back-fold {
+  background: #171717;
+}
+
+.dark-envelope .left-fold {
+  border-color: transparent transparent transparent #2E2E2E;
+}
+
+.snoopy-container{
+  display: flex;
+  transition: all 0.2s ease-in-out 0.1s;
+  justify-content: center;
+}
+
+.snoopy-container:hover {
+  transform: translateY(-7px) scale(1.05);
+}

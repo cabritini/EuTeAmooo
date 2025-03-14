@@ -1,11 +1,11 @@
 .btnVoltar {
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     padding: 10px 20px; /* Define o tamanho do botão */
-    font-size: 16px; /* Tamanho da fonte */
+    font-size: 25px; /* Tamanho da fonte */
     background-color: white; /* Cor de fundo */
     color: #1d1d1f; /* Cor da fonte */
     border: none; /* Remove borda */
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 20px; /* Bordas arredondadas */
     cursor: pointer; /* Altera o cursor para indicar um link */
     z-index: 1000; /* Garante que o botão fique acima de outros elementos */
     transition: all 0.3s ease-in-out 0.1s;
@@ -13,7 +13,7 @@
     justify-content: center;
     margin: 0 auto;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   
   .btnVoltar:hover {
